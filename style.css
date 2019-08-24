@@ -12,10 +12,10 @@
     font-family: 'Futura';
 }
 // HEADER
-.header {
+.tk-header {
 width: 100%;
 }
-.hero {
+.tk-hero {
 height: 85vh;
 text-align: center;
 justify-content: center;
@@ -25,11 +25,11 @@ background-size: cover;
 background-position: center;
 overflow: hidden;
 }
-.hero-slogan {
+.tk-hero-slogan {
 margin: 20vh auto;	
 max-width: 960px; 
 }
-.hero-main-text {
+.tk-hero-main-text {
 font-family: 'Courgette', cursive;
 font-weight: bold;
 font-size: 100px;
@@ -37,7 +37,7 @@ color: #934923;
 margin: 0 auto;
 margin-top: -30px;
 }
-.hero-text {
+.tk-hero-text {
 font-family: 'Courgette', cursive;
 background: rgba(255, 255, 255, 0.5);
 font-size: 25px;
@@ -62,33 +62,33 @@ background-color: #FFFFFF;
 }
 
 // NAV
-nav {
+.tk-navigation {
 width: 100%;	
 position: fixed;
 z-index: 1;
 top: 0;
 background-color: white;
 }
-nav ul {
+.tk-navigation_list {
 text-align: center;
 list-style-type: none;
 padding: 0;
 }
-nav li {
+.tk-navigation_item {
   font-size: 14px;
   color: black;
   margin: 10px 10px 10px 10px;
   display: inline-block;
   padding: 0px 20px; 
 }
-ul {
+.tk-socialmedia-list {
 padding: 0; 
 }
 nav li a {
   color: #8C3D14;
   text-decoration: none;
 }
-aside {
+.tk-socialmedia {
   position: fixed;
   left: 0;
   top: 30vh;
@@ -115,23 +115,23 @@ a:hover {
   background-color: transparent;
   text-decoration: underline;
 }
-.about_us {
+.tk-aboutus {
 width: 940px;
 margin-right: auto;
 margin-left: auto;
 display: block;
 }
-.text_about_us { 
+.tk-aboutus_text { 
 display: flex;    
 justify-content: flex-end; 
 align-items: center;
 }
-.text_about_us_center { 
+.tk-aboutus-text--center { 
 display: inline;    
 justify-content: center; 
 align-items: center;
 }
-.p_about_us {
+.tk-aboutus_text_p {
 padding-top: 20px;    
 font-size: 12px;
 margin: 0 auto;
@@ -200,9 +200,9 @@ height: 25%;
 width: 25%;
 } 
 .atrakcje { 
+width: 940px;
 padding-left: 200px;
 padding-right: 200px; 
-width: 100%; 
 background-color: #EAE7BB; 
 display: block;
 }
@@ -346,7 +346,7 @@ h2.main-name {
   top:-180px;
 }
 
-span.highlighted {
+span.tk-highlighted {
   background: #8C3D14;
   color: white;
   padding: 3px 5px 3px 5px;
