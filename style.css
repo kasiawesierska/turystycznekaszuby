@@ -32,13 +32,11 @@ max-width: 960px;
 .tk-hero-slogan__text { 
 font-family: 'Courgette', cursive;
  }
-
 .tk-hero-slogan__text--main {
 font-weight: bold;
 font-size: 100px;
 color: #934923;
 margin: -30px auto 0;
-
 }
 .tk-hero-slogan__text--second {
 background: rgba(255, 255, 255, 0.5);
@@ -48,7 +46,6 @@ padding: 5px 5px;
 margin: 40px auto;
 width: 65%;
 }
-
 .hero-button {
 font-size: 12px;
 background: rgba(255, 255, 255, 0.5);
@@ -59,11 +56,6 @@ padding: 10px 25px;
 margin: 15px auto;
 cursor: pointer; 
 }
-hero-button:hover {
-opacity: 0.6;
-background-color: #FFFFFF; 
-}
-
 // NAV
 .tk-navigation {
 width: 100%;	
@@ -98,25 +90,11 @@ padding: 0;
   width: 40px;
 }
 
-
 // MAIN
 .tk-main-content {
   max-width: 100%;
   margin-right: auto;
   margin-left: auto;
-}
-img {
-  max-width: 100%;
-}
-p {
- font-size: 12px;
- margin: 0 auto;
-line-height: 3vh;
-   
-}
-a:hover {
-  background-color: transparent;
-  text-decoration: underline;
 }
 .tk-about-us {
 width: 940px;
@@ -212,22 +190,25 @@ padding: 15px;
 line-height: 3vh;
 justify-content: center;
 }
-.tk-atraction__kolumny-3 { 
+.tk-atraction__kolumny-3
+.tk-location__kolumny-3 { 
 display: flex;
 justify-content: center;
 padding-top: 30px;
 padding-bottom: 30px;
 align-items: center;
 }
-.tk-atraction__box {
-    display: block;
-    flex-wrap: wrap;
-    flex: 1;
-    justify-content: space-between;
-    padding-left: 20px;
-    padding-right: 20px;
+.tk-atraction__box
+.tk-location__box {
+  display: block;
+  flex-wrap: wrap;
+  flex: 1;
+  justify-content: space-between;
+  padding-left: 20px;
+  padding-right: 20px;
 }
-.tk-atraction__ikona {
+.tk-atraction__ikona
+.tk-location__ikona {
   width: 120px;
   height: 120px;
   display: flex;
@@ -235,7 +216,8 @@ align-items: center;
   margin: 0 auto;
   justify-content: center;
 }
-.tk-atraction__name {
+.tk-atraction__name
+.tk-location__name {
 display: flex;
 flex-wrap: wrap;
 font-size: 14px;
@@ -244,7 +226,8 @@ color: #506617;
 padding-top: 30px;
 justify-content: center;  
 }
-.tk-atraction__description {
+.tk-atraction__description 
+.tk-location__description {
 padding-top: 10px;
 display: flex;
 flex-wrap: wrap;
@@ -278,27 +261,16 @@ align-self: flex-end;
 width: 50%;
 height: 50%;
 }
-.jakdojechac { 
+.tk-location { 
   width: 940px;
   margin-right: auto;
   margin-left: auto;
   display: block;
- flex-wrap: wrap;
-    flex: 1;
-    justify-content: space-between;
-    padding-left: 20px;
-    padding-right: 20px;
-}
-
-.center: 
-{
-  text-align: center;
-}
-h1 {
-  font-size: 24px;
-  color: #8C3D14;
-  margin-top: 50px;
-  margin-bottom: 20px;
+  flex-wrap: wrap;
+  flex: 1;
+  justify-content: space-between;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 .tk-about-us__title, 
 .tk-history__title, 
@@ -313,15 +285,6 @@ h1 {
   padding-top: 20px;
   display: flex;
   justify-content: center;
-}
-h2.main-name { 
-  font-size: 30px;
-  color: #8C3D14;
-  text-align: center;
-  position: relative;
-  top:-180px;
-}
-
 }
 .tk-contact { 
 height: 50vh;
