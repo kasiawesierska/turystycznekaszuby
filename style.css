@@ -165,13 +165,7 @@ padding-bottom: 25px;
 line-height: 3vh;
 justify-content: flex-end;
 }
-.srodek {
-background-color: white; 
-margin-top: 30px; 
-padding: 15px;   
-line-height: 3vh;
-justify-content: center;
-}
+
 .tk-history__nowa {
 display: flex;
 align-items: center;
@@ -204,21 +198,28 @@ justify-content: center;
 height: 25%;
 width: 25%;
 } 
-.atrakcje { 
+.tk-atraction { 
 width: 940px;
 padding-left: 200px;
 padding-right: 200px; 
 background-color: #EAE7BB; 
 display: block;
 }
-.kolumny-3 { 
+.tk-atraction__article {
+background-color: white; 
+margin-top: 30px; 
+padding: 15px;   
+line-height: 3vh;
+justify-content: center;
+}
+.tk-atraction__kolumny-3 { 
 display: flex;
 justify-content: center;
 padding-top: 30px;
 padding-bottom: 30px;
 align-items: center;
 }
-.box {
+.tk-atraction__box {
     display: block;
     flex-wrap: wrap;
     flex: 1;
@@ -226,7 +227,7 @@ align-items: center;
     padding-left: 20px;
     padding-right: 20px;
 }
-.ikona {
+.tk-atraction__ikona {
   width: 120px;
   height: 120px;
   display: flex;
@@ -234,7 +235,7 @@ align-items: center;
   margin: 0 auto;
   justify-content: center;
 }
-.name_bold {
+.tk-atraction__name {
 display: flex;
 flex-wrap: wrap;
 font-size: 14px;
@@ -243,16 +244,14 @@ color: #506617;
 padding-top: 30px;
 justify-content: center;  
 }
-.opis {
+.tk-atraction__description {
 padding-top: 10px;
 display: flex;
 flex-wrap: wrap;
 color: #AFB62C; 
-
 justify-content: flex-start;
 }
-
-.galeria {  
+.tk-galery {  
 width: 940px;
 padding-right: 15px;
 padding-left: 15px;
