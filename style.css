@@ -13,7 +13,7 @@
    height: 100%;
 }
 
-// HEADER
+HEADER
 .tk-header {
 width: 100%;
 }
@@ -110,7 +110,7 @@ cursor: pointer;
 
 
 
-// MAIN
+MAIN
 .tk-main-content {
   max-width: 100%;
   margin-right: auto;
@@ -207,28 +207,31 @@ width: 25%;
 } 
 
 .tk-atraction { 
-padding-left: 200px;
-padding-right: 200px; 
+width: 100%;
 background-color: #EAE7BB; 
 display: block;
+margin: 0 auto;
+padding-left: 20px;
 }
 
 .tk-atraction__article {
 background-color: white; 
+width: 700px;
 font-size: 12px;
 margin-top: 30px; 
 padding: 15px;   
-line-height: 3vh;
 text-align: center;
+justify-content: center;
 }
 
 .tk-atraction__kolumny-3,
 .tk-location__kolumny-3 { 
+width: 940px;
 display: flex;
+justify-self: center;
 justify-content: center;
-padding-top: 30px;
-padding-bottom: 30px;
-align-items: center;
+padding-top: 40px;
+padding-bottom: 40px;
 }
 
 .tk-atraction__box,
@@ -250,7 +253,13 @@ align-items: center;
   margin: 0 auto;
   justify-content: center;
 }
-
+.tk-atraction__ikona {
+  transition: .3s ease-in-out;
+}
+.tk-atraction__ikona:hover {
+  width: 130px;
+  height: 130px;
+}
 .tk-atraction__name,
 .tk-location__name {
 display: flex;
@@ -266,40 +275,32 @@ justify-content: center;
 font-size: 12px;
 padding-top: 10px;
 color: #AFB62C; 
+text-align: center;
 }
 
 .tk-galery {  
-width: 940px;
-padding-right: 15px;
-padding-left: 15px;
+width: 1000px;
 margin-right: auto;
 margin-left: auto;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
 }
 
 .tk-galeria_photos {
-width: 940px;
-display: flex;
-justify-content: flex-start;
-flex-direction: column;
+margin-top: 30px;
 }
 
-.tk-galeria_photo1 { 
-width: 50%;
-height: 50%;
+.tk-galeria_photo {
+  width:300px;
+  margin: 5px 5px;
+  opacity:0.7;
+  
 }
-
-.tk-galeria_photo2 { 
-width: 50%;
-height: 50%;
-display: flex;
-align-self: flex-end;
+.tk-galeria_photo:hover {
+  opacity: 1;
+  transition: 0.3s all;
 }
-
-.tk-galeria_photo3 { 
-width: 50%;
-height: 50%;
-}
-
 .tk-location { 
   width: 940px;
   margin-right: auto;
@@ -372,5 +373,5 @@ text-align: center;
 .tk-footer__text {
 font-size: 10px;
 margin: 0;
-padding:  40 px; 
+padding: 40 px; 
 }
