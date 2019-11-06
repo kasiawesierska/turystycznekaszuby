@@ -209,29 +209,28 @@ width: 25%;
 .tk-atraction { 
 width: 100%;
 background-color: #EAE7BB; 
-display: block;
-margin: 0 auto;
-padding-left: 20px;
+display: flex;
+flex-direction: column;
+align-items: center;
 }
 
 .tk-atraction__article {
 background-color: white; 
-width: 700px;
+width: 880px;
 font-size: 12px;
+padding:  30px;
 margin-top: 30px; 
-padding: 15px;   
 text-align: center;
-justify-content: center;
+margin-bottom: 20px;
 }
 
 .tk-atraction__kolumny-3,
 .tk-location__kolumny-3 { 
 width: 940px;
 display: flex;
-justify-self: center;
 justify-content: center;
-padding-top: 40px;
-padding-bottom: 40px;
+padding-top: 20px;
+padding-bottom: 30px;
 }
 
 .tk-atraction__box,
@@ -239,9 +238,7 @@ padding-bottom: 40px;
   display: block;
   flex-wrap: wrap;
   flex: 1;
-  justify-content: space-between;
-  padding-left: 20px;
-  padding-right: 20px;
+  justify-content: center;
 }
 
 .tk-atraction__ikona,
@@ -251,14 +248,15 @@ padding-bottom: 40px;
   display: flex;
   flex-wrap: wrap;
   margin: 0 auto;
-  justify-content: center;
+  background-color: white;
+  border-radius: 150px;
 }
 .tk-atraction__ikona {
-  transition: .3s ease-in-out;
+  transition: .1s ease-in-out;
 }
 .tk-atraction__ikona:hover {
-  width: 130px;
-  height: 130px;
+  box-shadow: 0px 0px 20px 10px rgba(255,255,255,1);
+
 }
 .tk-atraction__name,
 .tk-location__name {
@@ -279,38 +277,38 @@ text-align: center;
 }
 
 .tk-galery {  
-width: 1000px;
-margin-right: auto;
-margin-left: auto;
+width: 100%;
+padding-bottom: 30px;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.tk-galeria_photos {
+width: 940px;
+margin-top: 30px;
 display: flex;
 flex-wrap: wrap;
 justify-content: center;
 }
 
-.tk-galeria_photos {
-margin-top: 30px;
-}
-
 .tk-galeria_photo {
   width:300px;
-  margin: 5px 5px;
+  padding: 5px;
   opacity:0.7;
-  
+
 }
 .tk-galeria_photo:hover {
   opacity: 1;
   transition: 0.3s all;
 }
 .tk-location { 
-  width: 940px;
-  margin-right: auto;
-  margin-left: auto;
-  display: block;
-  flex-wrap: wrap;
+  width: 100%;
+  background-color: #EAE7BB; 
+  display: flex;
+  flex-direction: column;
   flex: 1;
-  justify-content: space-between;
-  padding-left: 20px;
-  padding-right: 20px;
+  align-items: center;
 }
 
 .tk-about-us__title, 
